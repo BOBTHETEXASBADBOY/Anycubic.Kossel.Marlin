@@ -35,7 +35,7 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION "bugfix-1.1.x"
+  #define SHORT_BUILD_VERSION "1.1.6-bugfix-MatteoRagni"
 
   /**
    * Verbose version identifier which should contain a reference to the location
@@ -48,7 +48,7 @@
    * here we define this default string as the date where the latest release
    * version was tagged.
    */
-  #define STRING_DISTRIBUTION_DATE "2017-10-24 12:00"
+  #define STRING_DISTRIBUTION_DATE "2017-11-08 00:00"
 
   /**
    * Required minimum Configuration.h and Configuration_adv.h file versions.
@@ -70,7 +70,7 @@
   /**
    * Defines a generic printer name to be output to the LCD after booting Marlin.
    */
-  #define MACHINE_NAME "3D Printer"
+  #define MACHINE_NAME "Anycubic Kossel"
 
   /**
    * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -78,17 +78,17 @@
    * has a distinct Github fork— the Source Code URL should just be the main
    * Marlin repository.
    */
-  #define SOURCE_CODE_URL "https://github.com/MarlinFirmware/Marlin"
+  #define SOURCE_CODE_URL "https://github.com/MatteoRagni/Anycubic.Kossel.Marlin"
 
   /**
    * Default generic printer UUID.
    */
-  #define DEFAULT_MACHINE_UUID "cede2a2f-41a2-4748-9b12-c55c62f367ff"
+  #define DEFAULT_MACHINE_UUID "00000000-1111-2222-3333-444444555555"
 
   /**
    * The WEBSITE_URL is the location where users can get more information such as
    * documentation about a specific Marlin release.
    */
-  #define WEBSITE_URL "http://marlinfw.org"
+  #define WEBSITE_URL "https://www.ragni.me/Marlin.Anycubic.Kossel"
 
 #endif // USE_AUTOMATIC_VERSIONING
