@@ -115,9 +115,9 @@
 #elif MB(RUMBA)
   #include "pins_RUMBA.h"             // ATmega2560
 #elif MB(BQ_ZUM_MEGA_3D)
-  #include "pins_BQ_ZUM_MEGA_3D.h"    // ATmega2560
-#elif MB(RAMPS_ANYCUBIC)
-  #include "pins_ANYCUBIC.h"          // Simple modification for pins_RAMPS.h
+  #include "pins_BQ_ZUM_MEGA_3D.h"   // ATmega2560
+#elif MB(TRIGORILLA)
+  #include "pins_TRIGORILLA.h"        // ATmega2560
 #elif MB(MAKEBOARD_MINI)
   #include "pins_MAKEBOARD_MINI.h"    // ATmega2560
 
